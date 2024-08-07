@@ -19,10 +19,10 @@ async def on_ready():
     general_channel = client.get_channel(1268342250828464193)
     if general_channel:
         await general_channel.send("¡El bot se ha iniciado! 🥳 El bot está programado para poder ayudarte en la mejora de tu vida ecológica y achicar tu huella de carbono 🤗💚")
-        await general_channel.send("Primero: en el canal #foros podrás utilizar los comandos !foros + ambientales, manualidad, reciclo 📖🧐")
-        await general_channel.send("Segundo: en el canal #ayuda encontraras videos sobre plantación, ambiente o manualidad, usa !ayuda + alguno de esos 3 📺🙀")
+        await general_channel.send("Primero: en el canal #foros podrás utilizar los comandos `!foros + ambientales, manualidad, reciclo` 📖🧐")
+        await general_channel.send("Segundo: en el canal #ayuda encontraras videos sobre `plantación, ambiente o manualidad`, usa `!ayuda` + alguno de esos 3 📺🙀")
         await general_channel.send("Tercero: Ayuda a seguir mejorando el planeta 😊")
-        await general_channel.send("Cuarto: Utiliza nuestra calculadora de huella de carbono personal 🙀😇🐾 usa !calculadora en el canal de #huella-de-carbono")
+        await general_channel.send("Cuarto: Utiliza nuestra calculadora de huella de carbono personal 🙀😇🐾 usa `!calculadora` en el canal de #huella-de-carbono")
         await general_channel.send("Dato: La huella de carbono representa el volumen total de gases de efecto invernadero (GEI) que producen las actividades económicas y cotidianas del ser humano. ☘🌱")
         
         script_directory = os.path.dirname(os.path.abspath(__file__))
