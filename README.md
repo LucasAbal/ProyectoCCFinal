@@ -11,11 +11,10 @@ Un chat bot de discrod con inteligencia artificial que, al momento de tu darle l
 Una pagina Web que a traves de imagenes y IA muestre información relevante sobre los ultimos tiempos, al mismo tiempo, enseñe sobre que es el cambio climatico y como nos afecta a nuestra vida diaria.
 
 # Tecnologias Usadas
+Una vez elejida la Idea 1 como idea principal y lo que implementaremos, pondremos aqui las tecnologias que usaremos para crear el bot
 - **Python**: I1: Lenguaje que se encargara sobre como debera responder el chat bot   I2: Lenguaje que gestiona el backend de la pagina web
-- **Html**: lenguaje principal de la estructura de la pagina
 - **Discord** en la I1 se utulizara discord como medio de envia de informacion y realizacion de mensajes
-
-Haremos la I1 :)
+- **Asyncio** asyncio es una biblioteca estándar que proporciona soporte para la programación asíncrona usando la sintaxis async y await. Permite escribir código concurrente utilizando corutinas, tareas y bucles de eventos, facilitando la escritura de programas que realicen múltiples tareas al mismo tiempo sin necesidad de utilizar múltiples hilos o procesos.
 
 # Pasos para crear el proyecto
 1.Crear el bot en el portal de discrod para desarrolladores
